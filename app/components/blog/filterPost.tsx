@@ -24,7 +24,7 @@ const FilteredPost = ({ postResult }: SearchProps) => {
               <div className='flex justify-center '>
                 <p className=' w-[50%]'>{item.body}</p>
               </div>
-              //I know this son of a b
+              
               <div className='gap-4 flex justify-center mt-7 w-[85%]'>
                 <p><strong>Views:</strong> {item.views}</p>
                 <p><strong>Likes:</strong> {item.reactions.likes}</p>
