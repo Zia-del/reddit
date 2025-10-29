@@ -61,14 +61,14 @@ const {posts} = usePosts()
       <div className='ml-72 flex justify-around align-middle h-14 p-2 gap-1.5 w-[25%] bg-gray-200 rounded-sm'>
         <button
           onClick={() => handleFormChange('post')}
-          className={`${activeForm === 'post' && 'bg-black text-white'} btn w-[7rem] rounded-md flex items-center justify-center p-2 h-full cursor-pointer gap-2 font-semibold text-[14px]`}
+          className={`${activeForm === 'post' && 'bg-black text-white'} btn w-28 rounded-md flex items-center justify-center p-2 h-full cursor-pointer gap-2 font-semibold text-[14px]`}
         >
           All Post
         </button>
 
         <button
           onClick={() => handleFormChange('searchresult')}
-          className={`${activeForm === 'searchresult' && 'bg-red-600 text-white'} btn w-[8rem] rounded-md flex items-center justify-center p-2 h-full cursor-pointer gap-2 font-semibold text-[14px]`}
+          className={`${activeForm === 'searchresult' && 'bg-red-600 text-white'} btn w-32 rounded-md flex items-center justify-center p-2 h-full cursor-pointer gap-2 font-semibold text-[14px]`}
         >
           Search result
         </button>
