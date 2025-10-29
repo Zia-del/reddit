@@ -1,0 +1,1 @@
+export type CurrentTabProbs = 'post' | 'searchresult' 
